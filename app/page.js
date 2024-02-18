@@ -44,11 +44,11 @@ function Homemain() {
 
 function Homebody() {
   return (
-    <div className="mt-[10rem] w=[80%] mx-[10%] sm:mx-[0] text-center sm:text-start sm:w-[23rem]">
+    <div className="mt-[12rem] sm:mt-[10rem] w=[80%] mx-[10%] sm:mx-[0] text-center sm:text-start sm:w-[23rem]">
       <h1 className=" text-[2.6rem] sm:text-[3.2rem] leading-0 font-medium head">
         John Wick 3 : Parabellum
       </h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center sm:mt-0 mt-2">
         <>
           <LiaImdb className="text-[2.4rem] text-yellow-400" />
           <p className="ml-4 mt-2 text-[0.8rem]">860/100</p>
@@ -58,12 +58,12 @@ function Homebody() {
           <p className="ml-2 text-[0.8rem]">97%</p>
         </div>
       </div>
-      <p className="text-sm mt-2">
+      <p className="text-sm mt-2 par">
         John Wick is on the run after killing a member of the international
         assassins guild and with a $14 million price tag on his head, he is the
         target of hit man and women everywhere.
       </p>
-      <div className="bg-[red] mt-2 m-auto sm:m-0 cursor-pointer flex justify-between rounded-sm w-[9rem] px-3 py-2 text-sm sm:mt-[0.6rem]">
+      <div className="bg-[red] mt-3 m-auto sm:m-0 cursor-pointer flex justify-between rounded-sm w-[9rem] px-3 py-2 text-sm sm:mt-[0.6rem]">
         <SiYoutubemusic className="text-[1rem]" />
 
         <p className="text-[0.8rem]">WATCH TRAILER</p>
