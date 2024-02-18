@@ -60,7 +60,7 @@ function Homebody() {
       </div>
       <p className="text-sm mt-2">
         John Wick is on the run after killing a member of the international
-        assassins' guild and with a $14 million price tag on his head, he is the
+        assassins guild and with a $14 million price tag on his head, he is the
         target of hit man and women everywhere.
       </p>
       <div className="bg-[red] mt-2 m-auto sm:m-0 cursor-pointer flex justify-between rounded-sm w-[9rem] px-3 py-2 text-sm sm:mt-[0.6rem]">
