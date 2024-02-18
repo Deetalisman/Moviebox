@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.home {
+  background-image: url(./johnwick.webp);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+input {
+  color: white;
+}
+.head {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+@media screen and (max-width: 600px) {
+  .movie {
+    width: 14rem;
+  }
+  .mainbody {
+    margin: 3% 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .movie {
+    width: 100%;
+  }
+  .mainbody {
+    margin: 3% 5%;
+  }
+  .home {
+    padding: 15px 10px;
+  }
+  .head {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+}
